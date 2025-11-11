@@ -1,0 +1,47 @@
+/* General font and behavior */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.index{
+  background-image: url('Images/Background/urban-vintage-78A265wPiO4-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+/* Hero section */
+.hero {
+  height: 90vh;
+  background: url('hero.jpg') center/cover no-repeat;
+  color: white;
+}
+
+/* Section spacing */
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Card styles */
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Navbar link styling */
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
